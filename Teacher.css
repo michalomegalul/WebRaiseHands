@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.list {
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+.list_header {
+    text-transform: uppercase;
+}
+
+.list_header>label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.list_header_item {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list_header_item_name {
+    letter-spacing: 1px;
+}
+
+.jmeno {
+    text-align: center;
+}
+
+.student1 {
+    font-family: 'Inspiration', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
+
+li {
+    font-family: 'Inspiration', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.favoritestyled {
+    color: #ff0000;
+    background-color: aqua;
+}
